@@ -3,7 +3,7 @@ $(document).ready(function(){
         e.preventDefault()
         let nomeTarefa = $('#tarefa').val()
         let lista = $('<li></li>')
-        $(`<li id="listajs" style="display: ;" >${nomeTarefa}</li>`).appendTo(lista)
+        $(`<li id="listajs">${nomeTarefa}</li>`).appendTo(lista)
         $(lista).appendTo('ul')
         $('#tarefa').val('')
     })
