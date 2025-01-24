@@ -10,27 +10,48 @@ form {
 }
 
 form h1 {
+    text-align: center;
+    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
-form label {
+label {
+    margin-right: 6px;
     text-decoration: underline;
-    padding-right: 6px;
 }
 
-input#tarefa,
-input#botao {
+input {
+    width: 140px;
+}
+
+input, 
+button {
     padding: 5px;
-    border-radius: 5px;
+    cursor: pointer;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
-input#botao:hover {
-    background-color: rgb(58, 228, 58);
+button:hover {
+    background-color: rgb(59, 228, 59);
 }
 
-ul {
+#lista {
+    cursor: pointer;
     text-align: center;
     margin-top: 15px;
 }
+
+#listajs {
+    background-color: rgb(197, 62, 62);
+    margin: 0px 500px 10px 500px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.riscar {
+    text-decoration: line-through;
+}
+
